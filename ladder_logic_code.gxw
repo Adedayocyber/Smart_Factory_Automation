@@ -1,0 +1,31 @@
+|---[ Start Button ]----+---[/ Emergency Stop ]---+---[ Motor 1 Start ]---+---[ Motor 1 Running ]---|
+|                        |                          |                        |                        |
+|                        |------------------] Motor 1 Running [----------------|                        |
+|                        |                                                                 |
+|---[ Stop Button ]-----+---[/ Motor 1 Running ]----+---[ Motor 1 Stop ]---------------------------|
+|                                                                                           |
+|---[ Sensor 1 Input ]----+---[ Conveyor 1 Start ]----------------------------------------------|
+|                        |                                                                 |
+|---[ Conveyor 1 Running ]--+---[ Conveyor 1 Stop ]-------------------------------------------|
+|                                                                                           |
+|---[ Overcurrent Motor 1 ]----+---[ Emergency Stop ]----+---[ Motor 1 Overload ]-------------|
+|                                                                                           |
+|---[ IIoT Motor 1 Temp ]----+---[ Send Data to Cloud ]---------------------------------------|
+|                                                                                           |
+|---[ Start Button ]----+---[/ Emergency Stop ]---+---[ Motor 2 Start ]---+---[ Motor 2 Running ]---|
+|                        |                          |                        |                        |
+|                        |------------------] Motor 2 Running [----------------|                        |
+|                        |                                                                 |
+|---[ Stop Button ]-----+---[/ Motor 2 Running ]----+---[ Motor 2 Stop ]---------------------------|
+|                                                                                           |
+|---[ Sensor 2 Input ]----+---[ Conveyor 2 Start ]----------------------------------------------|
+|                        |                                                                 |
+|---[ Conveyor 2 Running ]--+---[ Conveyor 2 Stop ]-------------------------------------------|
+|                                                                                           |
+|---[ Overcurrent Motor 2 ]----+---[ Emergency Stop ]----+---[ Motor 2 Overload ]-------------|
+|                                                                                           |
+|---[ IIoT Motor 2 Temp ]----+---[ Send Data to Cloud ]---------------------------------------|
+|                                                                                           |
+|---[ Fault Detection ]----+---[ Motor 1 Fault ]----+---[ Motor 2 Fault ]----------------------|
+|                                                                                           |
+|---[ System Ready ]------[ Green Light ON ]-------+---[ System Fault ]---[ Red Light ON ]----|
